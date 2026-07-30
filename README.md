@@ -1,16 +1,16 @@
 Программа для управления кошельками и пользователями на FastAPI, 
-SQLAlchemy 2.0 и Pydantic v2. Расчеты ведутся в типе Decimal.
+SQLAlchemy и Pydantic. Расчеты ведутся в типе Decimal
 
 СТРУКТУРА ПРОЕКТА
-* main.py          — Точка входа приложения и подключение роутеров.
-* database.py      — Настройка подключения к MySQL (драйвер pymysql).
-* models.py        — ORM-модели таблиц SQLAlchemy (users и wallets).
-* schemas.py       — Схемы Pydantic для валидации JSON-данных.
-* wallet.py        — Финансовая бизнес-логика на чистом Python.
-* test_wallet.py   — Модульные тесты для логики классов wallet.py.
-* test_api.py      — Интеграционные тесты для эндпоинтов FastAPI.
-* routers/users.py   — Роутер для создания пользователей.
-* routers/wallets.py — Роутер для операций: создание, пополнение, списание.
+* main.py          — Точка входа приложения и подключение роутеров
+* database.py      — Настройка подключения к MySQL (драйвер pymysql)
+* models.py        — ORM-модели таблиц SQLAlchemy (users и wallets)
+* schemas.py       — Схемы Pydantic для валидации JSON
+* wallet.py        — Финансовая бизнес-логика на чистом Python
+* test_wallet.py   — Модульные тесты для логики классов wallet
+* test_api.py      — Интеграционные тесты для эндпоинтов FastAPI
+* routers/users.py   — Роутер для создания пользователей
+* routers/wallets.py — Роутер для операций: создание, пополнение, списание
 
 
 ИНСТРУКЦИЯ ПО ЗАПУСКУ
